@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+backend-venv
+
+# Local dev-only compose overrides (hot reload, bind mounts) - not part of the submission
+docker-compose.*.yml
